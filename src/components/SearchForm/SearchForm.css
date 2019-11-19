@@ -1,4 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
 
 .search-form {
   grid-area: search;
+}
+
+input {
+  font-size: 2em;
+  background-color: #000;
+}
+
+#search-button {
+  color: #fff;
+  background-color: #000;
+  font-size: 2em;
+}
+
+#search-button:hover {
+  background-color: #321B4C;
 }

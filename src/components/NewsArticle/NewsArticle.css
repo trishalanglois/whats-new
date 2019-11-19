@@ -12,3 +12,16 @@ img {
   height: 200px;
   object-fit: cover;
 }
+
+article {
+  background-color: #fff;
+}
+
+h1, p {
+  color: #000;
+}
+
+a {
+  color: #A115F1;
+  font-size: 1.2em;
+}

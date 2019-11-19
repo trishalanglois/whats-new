@@ -3,10 +3,10 @@
 }
 
 #new-feature-word {
-  color: #44BDCE;
+  color: #A115F1;
 }
 
-button {
+.menu-button {
   display: block;
   color: #fff;
   background-color: #000;
@@ -15,6 +15,6 @@ button {
 }
 
 button:hover {
-  background-color: #1C8796;
+  background-color: #A115F1;
   cursor: pointer;
 }

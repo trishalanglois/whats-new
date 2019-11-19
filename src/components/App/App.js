@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import entertainment from '../../data/entertainment';
+import health from '../../data/health';
 import local from '../../data/local';
+import science from '../../data/science';
+import technology from '../../data/technology';
 import './App.css';
 import SearchForm from '../SearchForm/SearchForm';
 import Menu from '../Menu/Menu';
