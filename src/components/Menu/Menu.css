@@ -1,0 +1,9 @@
+/* .menu {
+  grid-area: menu;
+} */
+
+.menu {
+  width: 20%;
+  float: left;
+  height: 100%;
+}

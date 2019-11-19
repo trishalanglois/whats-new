@@ -1,0 +1,9 @@
+
+/* .search-form {
+  grid-area: search;
+} */
+
+.search-form {
+  width: 80%;
+  float: right;
+}
