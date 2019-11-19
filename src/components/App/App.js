@@ -5,9 +5,6 @@ import SearchForm from '../SearchForm/SearchForm';
 import Menu from '../Menu/Menu';
 import NewsContainer from '../NewsContainer/NewsContainer';
 
-
-
-
 class App extends Component {
   constructor() {
     super();
