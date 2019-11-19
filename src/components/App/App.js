@@ -13,17 +13,27 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      local
+      news: local
     }
   }
+
+changeNews = (newsSource) => {
+ this.setState({news: newsSource});
+}
 
   render () {
     return (
       <div className="app">
         <SearchForm />
-        <Menu />
+        <Menu
+          changeNews={this.changeNews}
+          local={local}
+          technology={technology}
+          entertainment={entertainment}
+          science={science}
+          health={health}/>
         <NewsContainer
-          articles = {this.state.local}
+          articles = {this.state.news}
         />
       </div>
     );
