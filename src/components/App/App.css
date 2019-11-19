@@ -7,12 +7,15 @@
 }
 
 .app {
-  /* grid-template-areas:
+  display: grid;
+  grid-template-areas:
     'menu search'
-    'menu main'; */
+    'menu main';
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 15% 85%;
   /* display: flex;
   text-align: center; */
-  background: #141527;
+  background: #000;
   height: 100vh;
   width: 100%;
 }

@@ -1,0 +1,5 @@
+.news-container {
+  grid-area: main;
+  /* display: flex; */
+  column-count: 2;
+}
