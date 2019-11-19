@@ -1,3 +1,20 @@
 .menu {
   grid-area: menu;
 }
+
+#new-feature-word {
+  color: #44BDCE;
+}
+
+button {
+  display: block;
+  color: #fff;
+  background-color: #000;
+  font-size: 2em;
+  margin: 1em auto;
+}
+
+button:hover {
+  background-color: #1C8796;
+  cursor: pointer;
+}
