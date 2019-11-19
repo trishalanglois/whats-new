@@ -1,9 +1,20 @@
-/* .menu {
-  grid-area: menu;
-} */
-
 .menu {
-  width: 20%;
-  float: left;
-  height: 100%;
+  grid-area: menu;
+}
+
+#new-feature-word {
+  color: #A115F1;
+}
+
+.menu-button {
+  display: block;
+  color: #fff;
+  background-color: #000;
+  font-size: 2em;
+  margin: 1em auto;
+}
+
+button:hover {
+  background-color: #A115F1;
+  cursor: pointer;
 }

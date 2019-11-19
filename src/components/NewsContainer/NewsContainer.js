@@ -16,9 +16,9 @@ const NewsContainer = ({articles}) => {
     )
   })
   return (
-    <div className = 'news-container'>
+    <main className = 'news-container'>
       {newsArticles}
-    </div>
+    </main>
   )
 };
 
