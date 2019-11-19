@@ -2,12 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
+  border: 1px solid red;
 }
 
 .app {
-  display: flex;
+  /* grid-template-areas:
+    'menu search'
+    'menu main'; */
+  /* display: flex;
+  text-align: center; */
   background: #141527;
   height: 100vh;
-  text-align: center;
   width: 100%;
 }
+
+/* Can you use flex across component CSS files? */

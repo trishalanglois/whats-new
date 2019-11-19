@@ -1,6 +1,10 @@
 import React from 'react';
 import './SearchForm.css';
 
-// SEARCHFORM COMPONENT CODE GOES HERE
+const SearchForm = () => (
+  <div className = 'search-form'>
+    This is the search form.
+  </div>
+);
 
 export default SearchForm;
