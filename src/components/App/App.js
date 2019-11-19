@@ -21,6 +21,11 @@ changeNews = (newsSource) => {
  this.setState({news: newsSource});
 }
 
+filterArticles = (word) => {
+  const filteredArticles = this.state.news.filter(article => article.description.includes(word));
+  this.setState({news: filteredArticles})
+}
+
   render () {
     return (
       <div className="app">
