@@ -21,10 +21,18 @@ changeNews = (newsSource) => {
  this.setState({news: newsSource});
 }
 
+filterArticles = (event, word) => {
+  event.preventDefault();
+  const filteredArticles = this.state.news.filter(article => article.description.includes(word) || article.headline.includes(word));
+  this.setState({news: filteredArticles})
+}
+
   render () {
     return (
       <div className="app">
-        <SearchForm />
+        <SearchForm
+          filterArticles={this.filterArticles}
+        />
         <Menu
           changeNews={this.changeNews}
           local={local}
