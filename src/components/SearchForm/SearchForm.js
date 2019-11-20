@@ -18,7 +18,7 @@ class SearchForm extends Component {
     return (
       <header>
         <form className = 'search-form'>
-          <input type='search' placeholder='Search for a news article here' size='70' value={this.state.keyword} onChange={event => this.handleChange(event)} aria-label='find article based on keyword' />
+          <input type='search' placeholder='Search for a news article here' size='50' value={this.state.keyword} onChange={event => this.handleChange(event)} aria-label='find article based on keyword' />
         </form>
         <button id='search-button' onClick= {event =>
           this.props.filterArticles(event, this.state.keyword)

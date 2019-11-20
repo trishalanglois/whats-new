@@ -11,14 +11,23 @@ header {
 input {
   font-size: 2em;
   background-color: #000;
+  width: 70%;
+  border-style: none;
 }
 
 #search-button {
   color: #fff;
   background-color: #000;
-  font-size: 2em;
+  font-size: 1.5em;
+  margin-right: 1em;
+  padding: .5em;
+  border-radius: 50px 0px 0px 50px;
+  text-align: right;
+  width: 7em;
 }
 
-#search-button:hover {
-  background-color: #321B4C;
-}
+#search-button:hover,
+  #search-button:focus {
+    background-color: #A115F1;
+    cursor: pointer;
+  }

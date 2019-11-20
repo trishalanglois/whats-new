@@ -19,9 +19,16 @@ article {
 
 h1, p {
   color: #000;
+  margin: 1em;
 }
 
 a {
   color: #A115F1;
   font-size: 1.2em;
+  border-top: 1px solid #000;
+  display: block;
+}
+
+a:hover {
+  font-weight: bold;
 }
