@@ -14,7 +14,13 @@
   /* font-family: 'Cinzel', serif; */
   text-align: center;
   color: #fff;
-  padding: 1em;
+  margin-right: 1em;
+}
+
+.menu-button-icon {
+  height: 1em;
+  width: 1em;
+  /* padding-right: 1em; */
 }
 
 .menu-button {
@@ -25,7 +31,7 @@
   margin: 1em;
   padding: .5em;
   border-radius: 0px 50px 50px 0px;
-  width: 80%;
+  width: 85%;
   text-align: left;
 
 }
