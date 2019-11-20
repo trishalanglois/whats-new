@@ -1,4 +1,4 @@
-.news-container {
+ .news-container {
   grid-area: main;
   column-count: 2;
   column-gap: 2em;
