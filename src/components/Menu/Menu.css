@@ -1,20 +1,38 @@
 .menu {
   grid-area: menu;
+  border: 1px solid white;
 }
 
 #new-feature-word {
   color: #A115F1;
+  display: block;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5em;
+}
+
+#logo {
+  /* font-family: 'Cinzel', serif; */
+  text-align: center;
+  color: #fff;
+  padding: 1em;
 }
 
 .menu-button {
   display: block;
   color: #fff;
   background-color: #000;
-  font-size: 2em;
-  margin: 1em auto;
+  font-size: 1.5em;
+  margin: 1em;
+  padding: .5em;
+  border-radius: 0px 50px 50px 0px;
+  width: 80%;
+  text-align: left;
+
 }
 
-button:hover {
+button:hover,
+  button:focus{
   background-color: #A115F1;
   cursor: pointer;
+  font-weight: bold
 }

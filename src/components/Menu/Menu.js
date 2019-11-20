@@ -3,7 +3,7 @@ import './Menu.css'
 
 const Menu = (props) => (
   <nav className = 'menu'>
-    <h1>What's <span id='new-feature-word'>New?</span></h1>
+    <h1 id='logo'>News Your Own <span id='new-feature-word'>Adventure</span></h1>
     <button onClick = {() => props.changeNews(props.local)} className='menu-button'>Local News</button>
     <button onClick = {() => props.changeNews(props.technology)}className='menu-button'>Technology</button>
     <button onClick = {() => props.changeNews(props.entertainment)}className='menu-button'>Entertainment</button>
