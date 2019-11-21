@@ -32,10 +32,38 @@ describe('App', () => {
     ]
     wrapper.setState( {news: mockState} );
     expect(wrapper.state('news')).toEqual(mockState);
-
     wrapper.instance().changeNews(newsSource);
-
     expect(wrapper.state('news')).toEqual(newsSource)
+  })
+
+  it('should update state when filterArticles is called', () => {
+    const wrapper = shallow(<App />);
+    const mockWord = 'test';
+    const mockEvent = { preventDefault: jest.fn() };
+    const mockOriginalState = [
+      { id: 1,
+      headline: 't',
+      img: 't',
+      description: 't',
+      url: 't'},
+      { id: 2,
+      headline: 'test',
+      img: 's',
+      description: 's',
+      url: 's'
+    }];
+    const mockFilteredState = [
+      { id: 2,
+      headline: 'test',
+      img: 's',
+      description: 's',
+      url: 's'
+    }]
+
+    wrapper.setState({ news: mockOriginalState });
+    expect(wrapper.state('news')).toEqual(mockOriginalState);
+    wrapper.instance().filterArticles(mockEvent, mockWord);
+    expect(wrapper.state('news')).toEqual(mockFilteredState);
 
   })
 })
