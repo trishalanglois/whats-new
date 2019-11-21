@@ -18,31 +18,51 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     className="menu-button"
     onClick={[Function]}
   >
-    Local News
+    <img
+      className="menu-button-icon"
+      src="you-are-here.png"
+    />
+      Local News
   </button>
   <button
     className="menu-button"
     onClick={[Function]}
   >
-    Technology
+    <img
+      className="menu-button-icon"
+      src="technology.png"
+    />
+     Technology
   </button>
   <button
     className="menu-button"
     onClick={[Function]}
   >
-    Entertainment
+    <img
+      className="menu-button-icon"
+      src="entertainment.png"
+    />
+     Entertainment
   </button>
   <button
     className="menu-button"
     onClick={[Function]}
   >
-    Science
+    <img
+      className="menu-button-icon"
+      src="science.png"
+    />
+     Science
   </button>
   <button
     className="menu-button"
     onClick={[Function]}
   >
-    Health
+    <img
+      className="menu-button-icon"
+      src="health.png"
+    />
+     Health
   </button>
 </nav>
 `;
