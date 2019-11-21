@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should correctly match the snapshot with all the data passed correctly 1`] = `
+<header>
+  <form
+    className="search-form"
+  >
+    <input
+      aria-label="find article based on keyword"
+      onChange={[Function]}
+      placeholder="Search for a news article here"
+      size="50"
+      type="search"
+      value=""
+    />
+  </form>
+  <button
+    id="search-button"
+    onClick={[Function]}
+  >
+    Search Now
+  </button>
+</header>
+`;
