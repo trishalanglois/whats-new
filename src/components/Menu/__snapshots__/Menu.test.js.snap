@@ -16,6 +16,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   </h1>
   <button
     className="menu-button"
+    id="local-button"
     onClick={[Function]}
   >
     <img
@@ -26,6 +27,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   </button>
   <button
     className="menu-button"
+    id="technology-button"
     onClick={[Function]}
   >
     <img
@@ -36,6 +38,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   </button>
   <button
     className="menu-button"
+    id="entertainment-button"
     onClick={[Function]}
   >
     <img
@@ -46,6 +49,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   </button>
   <button
     className="menu-button"
+    id="science-button"
     onClick={[Function]}
   >
     <img
@@ -56,6 +60,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
   </button>
   <button
     className="menu-button"
+    id="health-button"
     onClick={[Function]}
   >
     <img
