@@ -29,7 +29,7 @@ filterArticles = (event, word) => {
 
   render () {
     return (
-      <div className="app">
+      <main className="app">
         <SearchForm
           filterArticles={this.filterArticles}
         />
@@ -43,7 +43,8 @@ filterArticles = (event, word) => {
         <NewsContainer
           articles = {this.state.news}
         />
-      </div>
+        <footer>Icons made by Freepik from www.flaticon.com</footer>
+      </main>
     );
   }
 }
