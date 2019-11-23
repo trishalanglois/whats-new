@@ -12,8 +12,16 @@ News Your Own Adventure is a single-page React app that is built using class and
 
 ### Use sidebar to view different types of articles
 
-
+![The user can click on different buttons in the sidebar to see different genres of articles](https://imgur.com/LbugwHT.png)
 
 ### Search for specific articles using keywords
 
 ![Search for specific articles using keyword that the user types into the search bar](https://imgur.com/krvKl8g.png)
+
+## Future Iterations
+
+Future iterations will include a media query for smartphones, which will feature the menu buttons at the top of the screen and the articles showing in a single column underneath it.
+
+## Project Speculations
+
+[View Project Requirements from Turing School of Software and Design](https://frontend.turing.io/projects/module-3/whats-new.html)
