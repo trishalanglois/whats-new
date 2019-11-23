@@ -16,4 +16,4 @@ News Your Own Adventure is a single-page React app that is built using class and
 
 ### Search for specific articles using keywords
 
-[Search for specific articles using keyword that the user types into the search bar](https://imgur.com/krvKl8g.png)
+![Search for specific articles using keyword that the user types into the search bar](https://imgur.com/krvKl8g.png)
