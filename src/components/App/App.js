@@ -43,7 +43,7 @@ filterArticles = (event, word) => {
         <NewsContainer
           articles = {this.state.news}
         />
-        <footer>Icon made by Freepik from www.flaticon.com</footer>
+        <footer>Icons made by Freepik from www.flaticon.com</footer>
       </main>
     );
   }
