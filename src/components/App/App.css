@@ -10,8 +10,18 @@
   display: grid;
   grid-template-areas:
     'menu search'
-    'menu main';
+    'menu main'
+    'footer footer';
   background: #000;
   width: 100%;
-  
+}
+
+footer {
+  grid-area: footer;
+  height: 3em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid #fff;
+  display: block;
 }
