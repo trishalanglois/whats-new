@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import './App.css';
 import entertainment from '../../data/entertainment';
 import health from '../../data/health';
 import local from '../../data/local';
-import science from '../../data/science';
-import technology from '../../data/technology';
-import './App.css';
-import SearchForm from '../SearchForm/SearchForm';
 import Menu from '../Menu/Menu';
 import NewsContainer from '../NewsContainer/NewsContainer';
+import React, { Component } from 'react';
+import science from '../../data/science';
+import SearchForm from '../SearchForm/SearchForm';
+import technology from '../../data/technology';
 
 class App extends Component {
   constructor() {
@@ -27,25 +27,24 @@ filterArticles = (event, word) => {
   this.setState({news: filteredArticles})
 }
 
-  render () {
-    return (
-      <main className="app">
-        <SearchForm
-          filterArticles={this.filterArticles}
-        />
-        <Menu
-          changeNews={this.changeNews}
-          local={local}
-          technology={technology}
-          entertainment={entertainment}
-          science={science}
-          health={health}/>
-        <NewsContainer
-          articles = {this.state.news}
-        />
-        <footer>Icons made by Freepik from www.flaticon.com</footer>
-      </main>
-    );
+render () {
+  return (
+    <main className="app">
+      <SearchForm
+        filterArticles={this.filterArticles}
+      />
+      <Menu
+        changeNews={this.changeNews}
+        local={local}
+        technology={technology}
+        entertainment={entertainment}
+        science={science}
+        health={health}/>
+      <NewsContainer
+        articles = {this.state.news}
+      />
+      <footer>Icons made by Freepik from www.flaticon.com</footer>
+    </main>);
   }
 }
 

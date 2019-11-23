@@ -1,6 +1,6 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import { shallow } from 'enzyme';
 
 describe('App', () => {
@@ -59,11 +59,9 @@ describe('App', () => {
       description: 's',
       url: 's'
     }]
-
     wrapper.setState({ news: mockOriginalState });
     expect(wrapper.state('news')).toEqual(mockOriginalState);
     wrapper.instance().filterArticles(mockEvent, mockWord);
     expect(wrapper.state('news')).toEqual(mockFilteredState);
-
   })
 })

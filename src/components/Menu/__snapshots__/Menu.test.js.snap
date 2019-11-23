@@ -20,6 +20,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     onClick={[Function]}
   >
     <img
+      alt="local news icon"
       className="menu-button-icon"
       src="you-are-here.png"
     />
@@ -31,6 +32,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     onClick={[Function]}
   >
     <img
+      alt="technology news icon"
       className="menu-button-icon"
       src="technology.png"
     />
@@ -42,6 +44,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     onClick={[Function]}
   >
     <img
+      alt="entertainment news icon"
       className="menu-button-icon"
       src="entertainment.png"
     />
@@ -53,6 +56,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     onClick={[Function]}
   >
     <img
+      alt="science news icon"
       className="menu-button-icon"
       src="science.png"
     />
@@ -64,6 +68,7 @@ exports[`Menu should correctly match the snapshot with all the data passed corre
     onClick={[Function]}
   >
     <img
+      alt="health news icon"
       className="menu-button-icon"
       src="health.png"
     />

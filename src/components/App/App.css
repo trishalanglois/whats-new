@@ -3,25 +3,24 @@
   margin: 0;
   padding: 0;
   color: white;
-  /* border: 1px solid red; */
 }
 
 .app {
+  background: #000;
   display: grid;
   grid-template-areas:
     'menu search'
     'menu main'
     'footer footer';
-  background: #000;
   width: 100%;
 }
 
 footer {
-  grid-area: footer;
-  height: 3em;
-  font-style: italic;
-  text-align: center;
-  padding: 1em;
   border: 1px solid #fff;
   display: block;
+  font-style: italic;
+  grid-area: footer;
+  height: 3em;
+  padding: 1em;
+  text-align: center;
 }
